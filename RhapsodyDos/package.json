@@ -1,0 +1,36 @@
+{
+  "name": "RhapsodyLogin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KovalevAnton/Rhapsody/Users/antonkovalev/Programming/ReactRhapsody/src/module-declarations.d.ts.git",
+  "author": "KovalevAnton <kovalevantondev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config ./config/webpack.dev.js --open --hot",
+    "build": "webpack --config ./config/webpack.prod.js",
+    "build:analyze": "webpack --config ./config/webpack.analyze.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.7",
+    "@tanstack/react-query": "^5.18.1",
+    "firebase": "^10.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "esbuild": "^0.20.0",
+    "esbuild-loader": "^4.0.3",
+    "html-webpack-plugin": "^5.6.0",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0"
+  }
+}
